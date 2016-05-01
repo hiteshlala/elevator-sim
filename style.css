@@ -184,7 +184,7 @@ h4 {
   Door
 */
 .door {
-  min-width: 25%;
+  min-width: 10%;
   min-height: 516px;
   background-color: #BDB76B;
 }

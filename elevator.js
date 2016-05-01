@@ -105,8 +105,8 @@ Functional Requirements:
       this.ding.play();
 
       // open and close door
-      $('.door').animate({'width': '0'}, 420, 'linear');
-      $('.door').animate({'width': '100%'}, 420, 'linear');
+      $('.door').animate({'width': '0'}, 1000, 'linear');
+      $('.door').animate({'width': '100%'}, 1000, 'linear');
 
 
       // see if there are still floors to visit if so call move()
@@ -115,7 +115,7 @@ Functional Requirements:
         if(elevator.moveTo.length) {
           elevator.move();
         }
-      }, elevator.travelTime);
+      }, 1400);
     }
 
   };
