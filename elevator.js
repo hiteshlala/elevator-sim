@@ -37,7 +37,7 @@ Functional Requirements:
 
     moveTo: [],
     
-    moving: false, //possible values false, 'up', 'down'
+    moving: false,
 
     travelTime: 1000,
 
@@ -123,7 +123,6 @@ Functional Requirements:
 })();
 
 $(function() {
-  // maybe include a function to dynamically add the elevator floor buttons
 
   // add event listener to buttons after document loads
   $('.button').on('click', function(button){
