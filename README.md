@@ -7,7 +7,7 @@
 1. [Overview](#overview)
 1. [User Interface](#user-interface-requirements)
 1. [Behaviour/ Functional Requirements](#functional-requirements)
-1. [View HTML Page]()
+1. [View HTML Page](http://hiteshlala.github.io/elevator-sim/)
 
 ## Overview
 
