@@ -40,6 +40,8 @@ Functional Requirements:
     moving: false, //possible values false, 'up', 'down'
 
     travelTime: 1000,
+
+    ding: new Audio('elevatorDing.mp3'),
     
     move: function(){
       if(this.moveTo.length > 0) {
@@ -99,6 +101,9 @@ Functional Requirements:
     },
 
     openDoor: function() {
+      // ding
+      this.ding.play();
+
       // open and close door
       $('.door').animate({'width': '0'}, 420, 'linear');
       $('.door').animate({'width': '100%'}, 420, 'linear');
